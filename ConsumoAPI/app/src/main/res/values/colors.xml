@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primaryColor">#006CB0</color>
+    <color name="primaryLightColor">#006CB0</color><!--5e92f3-->
+    <color name="primaryDarkColor">#003c8f</color>
+    <color name="secondaryColor">#1976d2</color>
+    <color name="secondaryLightColor">#63a4ff</color>
+    <color name="secondaryDarkColor">#004ba0</color>
+    <color name="primaryTextColor">#ffffff</color>
+    <color name="secondaryTextColor">#ffffff</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="gray">#616161</color>
+    <color name="lightGray">#919191</color>
+    <color name="graySlow">#E6E4E4</color>
+    <color name="transparent">#00000000</color>
+    <color name="blue">#2196f3</color>
+    <color name="orangeSM">#F06400</color>
+    <color name="blueSM">#006CB0</color>
+    <color name="orangebase">#eb7711</color>
+    <color name="orangebase2">#FF9E1B</color>
+    <color name="bluebase">#1565c0</color>
+    <color name="red">#D32F2F</color>
+    <color name="instagram">#C13584</color>
+
+    <color name="msnTo">#607d8b</color>
+    <color name="msnFrom">#eceff1</color>
+
+    <color name="qualifySad">#D32F2F</color>
+    <color name="qualifyNeutral">#FFC107</color>
+    <color name="qualifyHappy">#388E3C</color>
+    <color name="qualifySend">#2196f3</color>
+
+
+    <color name="grayDivider">#e0e0e0</color>
+    <color name="StatusPending">#EF6C00</color>
+    <color name="StatusComplete">#4CAF50</color>
+    <color name="StatusProcess">#4CAF50</color>
+    <color name="StatusAttending">#FFC107</color>
+    <color name="StatusReject">#D32F2F</color>
+    <color name="StatusClosed">#03A9F4</color>
+    <color name="currentClass">#4CAF50</color>
+    <color name="headeNav">@color/primaryColor</color>
+    <color name="divider">#F06400</color>
+    <color name="icon">#F06400</color>
+    <color name="tabIndicador">#F06400</color>
+    <color name="swipeRefreshColor">#F06400</color>
+
+    <color name="statusUrgent">#d32f2f</color>
+    <color name="statusHigh">#ffee58</color>
+    <color name="statusHalf">#03a9f4</color>
+    <color name="statusComeDown">#66bb6a</color>
+
+    <color name="bgDarkDanger">#e7b520</color>
+    <color name="bgDanger">#ffc107</color>
+    <color name="bgError">#dc3545</color>
+    <color name="bgSuccess">#28a745</color>
+    <color name="bgInfo">#17a2b8</color>
+    <color name="bgLight">#f8f9fa</color>
+    <color name="bgDark">#343a40</color>
+    <color name="bgWhite">#fff</color>
+    <color name="bgPrimary">#007bff</color>
+    <color name="bgSecondary">#6c757d</color>
+    <color name="vacationApplication">#ffc107</color>
+
+    <color name="loading_gray">#D0D9DE</color>
+    <color name="ted_image_picker_primary">#006CB0</color>
+    <color name="ted_image_picker_primary_pressed">#FF00B0FF</color>
+
+    <color name="whatsappColor">#00bb2d</color>
+    <color name="grayBack">#60000000</color>
+
+
+</resources>
