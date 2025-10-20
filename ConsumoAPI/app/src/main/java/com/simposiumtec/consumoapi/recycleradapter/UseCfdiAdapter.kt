@@ -9,7 +9,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.simposiumtec.consumoapi.R
 import com.simposiumtec.consumoapi.models.UseCfdiAdapterModel
 
-class UseCfdiAdapter (private var adapterModel: List<UseCfdiAdapterModel>, private val listener: View.OnClickListener):
+class UseCfdiAdapter (private var adapterModel: List<UseCfdiAdapterModel>):
 RecyclerView.Adapter<UseCfdiAdapter.ViewHolder>(){
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
@@ -59,9 +59,5 @@ RecyclerView.Adapter<UseCfdiAdapter.ViewHolder>(){
         override fun onClick(p0: View?) {
             val position = bindingAdapterPosition
         }
-    }
-
-    interface OnItemClickListener {
-        fun onItemClick(v:View, position:Int, data: UseCfdiAdapterModel)
     }
 }
