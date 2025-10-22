@@ -1,6 +1,7 @@
 package com.simposiumtec.consumoapi.activities
 
 import android.annotation.SuppressLint
+import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import android.widget.Toast
@@ -37,6 +38,12 @@ class UseCfdiActivity : AppCompatActivity() {
         binding.swipeRefresh.setOnRefreshListener {
             refreshData()
         }
+
+        binding.imgRelationType.setOnClickListener {
+            val intent = Intent(this, RelationTypeActivity::class.java)
+            startActivity(intent)
+        }
+
         refreshData()
     }
 

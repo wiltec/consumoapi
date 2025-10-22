@@ -6,26 +6,26 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/white"
-    tools:context=".activities.UseCfdiActivity">
+    tools:context=".activities.RelationTypeActivity">
 
     <TextView
-        android:id="@+id/txtTitle"
+        android:id="@+id/txtTitleRelationType"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
-        android:text="Catálogo usos CFDI"
+        android:text="Catálogo tipos de relación"
         android:theme="@style/title"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/imgRelationType"
+        android:id="@+id/imgBack"
         android:layout_width="32dp"
         android:layout_height="32dp"
         android:layout_marginLeft="16dp"
-        android:src="@drawable/outline_keyboard_double_arrow_right_24"
-        app:layout_constraintTop_toBottomOf="@+id/txtTitle"
+        android:src="@drawable/baseline_keyboard_double_arrow_left_24"
+        app:layout_constraintTop_toBottomOf="@+id/txtTitleRelationType"
         app:layout_constraintStart_toStartOf="parent"
         app:tint="@color/primaryColor" />
 
@@ -39,7 +39,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imgRelationType"
+        app:layout_constraintTop_toBottomOf="@+id/imgBack"
         app:layout_constraintVertical_bias="0.0">
 
         <ScrollView
@@ -51,7 +51,7 @@
                 android:layout_height="match_parent">
 
                 <androidx.recyclerview.widget.RecyclerView
-                    android:id="@+id/rvList"
+                    android:id="@+id/rvListRelationType"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="16dp"
@@ -61,7 +61,7 @@
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
                     tools:itemCount="2"
-                    tools:listitem="@layout/item_usecfdi_layout" />
+                    tools:listitem="@layout/item_relationtype_layout" />
 
             </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -70,6 +70,5 @@
 
 
     </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>

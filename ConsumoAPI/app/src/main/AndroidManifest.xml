@@ -17,12 +17,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ConsumoAPI"
         android:usesCleartextTraffic="true">
-
+        <activity
+            android:name=".activities.RelationTypeActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.ConsumoAPI.NoActionBar"
+            android:windowSoftInputMode="stateHidden|adjustPan"/>
         <activity
             android:name=".activities.UseCfdiActivity"
             android:configChanges="orientation|screenSize|keyboardHidden"
-            android:label="@string/app_name"
             android:exported="true"
+            android:label="@string/app_name"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.ConsumoAPI.NoActionBar"
             android:windowSoftInputMode="stateHidden|adjustPan">
