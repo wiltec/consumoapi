@@ -18,4 +18,8 @@ class RelationTypeActivity : AppCompatActivity() {
             onBackPressedDispatcher.onBackPressed()
         }
     }
+
+    private fun refreshData(){
+
+    }
 }
